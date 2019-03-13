@@ -35,7 +35,7 @@ This project requires that the following packages be already installed and runni
 + Run vagrant, via `vagrant up` command
 + Access vagrant via ssh with the `vagrant ssh` command
 + Install PostgreSQL database and make sure we can access it via psql
-+ Download newsdata.sql supplied by Udacity
++ Download [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) from Udacity.  Unzip it to produce newsdata.sql.
 + Create the database tables and data via the `psql -d news -f newsdata.sql` command
 + Explore the news database inside psql via the `\dt`, `\d` commands
 + The "news" database should contain 3 tables: authors, articles, and log
